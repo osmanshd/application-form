@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Application Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+A simple web application form created for university students to apply for an innovative research initiative called **The Discovery Lab**. The application form collects basic information such as name, email, phone number, school year, school name, resume upload, and a short application question. Upon submission, the user receives a confirmation message acknowledging that their application has been successfully received.
 
-## Available Scripts
+## Table of Contents
++ [Features](#features)
++ [Design](#design)
++ [Technologies Used](#technologies-used)
++ [Installation](#installation)
+  
+## Features
++ **Reset Button**: Clears all fields and resets the form to its initial state.
++ **Required Fields**: Ensures the form cannot be submitted without filling in the necessary fields.
++ **Hover Effects**: Buttons and interactive elements feature hover effects for a more dynamic user experience.
++ **File Upload**: Allows users to upload their resume directly through the form.
++ **Form Validation**: Highlights required fields with a pop-up if they are left empty when submitting the form.
 
-In the project directory, you can run:
+## Design
+The design prioritizes clarity and ease of use, ensuring a seamless experience for all users. With a clean aesthetic, the layout is simple and intuitive, guiding users through the form with minimal distractions.
+<p align="center">
+  <img src=https://github.com/user-attachments/assets/f9542cf4-c6a5-4e8e-b02f-08be56616b13 align="left" width=270 height=100> 
+  <img src=https://github.com/user-attachments/assets/cd494039-6775-457b-b244-0b4d886d6894 width=270 height=100> 
+  <img src=https://github.com/user-attachments/assets/06938bd9-587b-4111-b133-1e58ba7db90c align="right" width=270 height=100>
+</p>
 
-### `npm start`
+## Technologies Used
+> React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> React Hooks for handling component states and side effects
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> HTML for structure and form elements
 
-### `npm test`
+> CSS for styling the form
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> JavaScript for form validation, managing state, and handling form submission logic
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Installation
+1. Clone the repository to your local machine: 
+`git clone https://github.com/osmanshd/application-form.git`
+2. Navigate to the project directory: `cd application-form`
+3. Install dependencies: `npm install`
+4. Start the app for development: `npm run dev` or production: `npm start`
+5. Apply!
