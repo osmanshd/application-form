@@ -1,38 +1,106 @@
-.App {
+body {
+  background-color: #D3D3D3;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  background-color: #C0C0C0;
+  border-radius: 15px;
+  box-shadow: white;
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Thanks {
+  background-color: #C0C0C0;
+  border-radius: 15px;
+  box-shadow: white;
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-size: 25px;
+  font-family: "Georgia";
+  text-align: center;
+  color: #5E2A84;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Trebuchet MS";
+  text-align: center;
+  color: #4A7C7F;
+}
+
+label {
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Trebuchet MS";
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Trebuchet MS";
+}
+
+textarea {
+  resize: none;
+  width: 98%;
+  min-height: 100px;
+  max-height: 150px;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Trebuchet MS";
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 15px;
+  border: none;
   color: white;
+  cursor: pointer;
+  background-color: #4A7C7F;
+  width: 40%;
+  font-size: 18px;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: #7FAFA9;
 }
