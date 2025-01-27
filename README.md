@@ -8,6 +8,7 @@ A simple web application form created for university students to apply for an in
 + [Design](#design)
 + [Technologies Used](#technologies-used)
 + [Installation](#installation)
++ [Apply](#apply)
   
 ## Features
 + **Reset Button**: Clears all fields and resets the form to its initial state.
@@ -42,3 +43,7 @@ The design prioritizes clarity and ease of use, ensuring a seamless experience f
 3. Install dependencies: `npm install`
 4. Start the app for development: `npm run dev` or production: `npm start`
 5. Apply!
+
+## Apply
+Check out the application form hosted on Netlify:
+[Apply Now](https://applicationform-react.netlify.app)
