@@ -19,9 +19,9 @@ A simple web application form created for university students to apply for an in
 ## Design
 The design prioritizes clarity and ease of use, ensuring a seamless experience for all users. With a clean aesthetic, the layout is simple and intuitive, guiding users through the form with minimal distractions.
 <p align="center">
-  <img src=https://github.com/user-attachments/assets/f9542cf4-c6a5-4e8e-b02f-08be56616b13 align="left" height=300> 
-  <img src=https://github.com/user-attachments/assets/cd494039-6775-457b-b244-0b4d886d6894 height=300> 
-  <img src=https://github.com/user-attachments/assets/06938bd9-587b-4111-b133-1e58ba7db90c align="right" height=300>
+  <img src=https://github.com/user-attachments/assets/9474adb1-b379-4b7e-83cb-aacd9e24f8f4 align="left" width=250 height=250> 
+  <img src=https://github.com/user-attachments/assets/4585f63f-64ea-4e21-8d46-24c3bc54889e width=250 height=250> 
+  <img src=https://github.com/user-attachments/assets/f325eefb-6e39-4b86-b0a0-6d77367e591b align="right" width=250 height=250>
 </p>
 
 ## Technologies Used
